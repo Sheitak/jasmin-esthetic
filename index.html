@@ -9,28 +9,52 @@
               integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
         >
         <link rel="stylesheet" href="jasmin.css" />
-        <title>Aux Milles & Une Merveilles</title>
+        <title>Aux Mille & Une Merveilles</title>
     </head>
     <body>
         <div class="container-fluid banner-backer">
             <div class="banner-backer">
                 <div class="text-center">
-                    <h1 class="title-website">Aux Milles & Une Merveilles</h1>
+                    <h1 class="title-website">Aux Mille & Une Merveilles</h1>
                     <h5 class="slogan">Un moment de rêve et de détente</h5>
                 </div>
             </div>
         </div>
 
-        <nav class="flexbox">
-            <img id="logo-image" src="images/lampe.jpg" alt="lampe-aladin">
-            <ul class="fullwidth" >
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Produits</a></li>
-                <li><a href="#">Notre institut</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">A propos de nous</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <img id="logo-image" src="images/lampe.jpg" alt="lampe-aladin" class="navbar-brand">
+                    <button type="button" class="navbar-toggler bg-warning" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="#" class="nav-item nav-link active text-warning">Accueil</a>
+                            <a href="#" class="nav-item nav-link text-warning">Produits</a>
+                            <a href="#" class="nav-item nav-link text-warning">Notre institut</a>
+                            <a href="#" class="nav-item nav-link text-warning">Contact</a>
+                            <a href="#" class="nav-item nav-link text-warning">A propos de nous</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+<!--            <nav class="flexbox navbar navbar-expand-lg">-->
+<!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--                                    <img id="logo-image" src="images/lampe.jpg" alt="lampe-aladin">-->
+<!--                                    <ul class="navbar-nav mr-auto fullwidth" >-->
+<!--                                        <li><a href="#">Accueil</a></li>-->
+<!--                                        <li><a href="#">Produits</a></li>-->
+<!--                                        <li><a href="#">Notre institut</a></li>-->
+<!--                                        <li><a href="#">Contact</a></li>-->
+<!--                                        <li><a href="#">A propos</a></li>-->
+<!--                                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
+<!--        </div>-->
 
         <section class="cParallaxe1 cSection">
             <div class=""></div>
@@ -39,7 +63,7 @@
         <!-- Section de contenu -->
         <section class="cSection">
             <div class="d-flex justify-content-between my-5 px-5">
-                <div class="">
+                <div class="info-block">
                     <p class="sub-title">Prestations</p>
                     <p>Maquillage Flash</p>
                     <p>Manicure + Modelage + Vernis</p>
@@ -47,7 +71,7 @@
                     <p>Manicure + Modelage</p>
                     <p>Coffret (Parfum, Rouge à lèvre et Bracelet)</p>
                 </div>
-                <div class="">
+                <div class="info-block">
                     <p class="sub-title">Temps</p>
                     <p>30 minutes</p>
                     <p>60 minutes</p>
@@ -55,7 +79,7 @@
                     <p>45 minutes</p>
                     <p>/</p>
                 </div>
-                <div class="">
+                <div class="info-block">
                     <p class="sub-title">Prix</p>
                     <p>15€ fille et 25€ mère</p>
                     <p>89€ fille et mère</p>
@@ -91,20 +115,18 @@
         <!-- Section de contenu -->
         <section class="cSection">
             <div class="d-flex justify-content-between my-5 px-5">
-                <div class="">
+                <div class="info-block">
                     <p class="sub-title">Informations</p>
-                    <p>Adresse : 8 Rue du jasmin, 87 000 Limoges</p>
+                    <p>Adresse : 8 Rue jasmin, 87 000 Limoges</p>
                     <p>06.07.08.09.10</p>
                     <p>mille-et-une-merveilles@jasmin.com</p>
                 </div>
-                <div class="">
+                <div class="info-block">
                     <p class="sub-title">Vos praticiennes</p>
                     <p>Djamila</p>
                     <p>Morgane</p>
                     <p>Cassandra</p>
                     <p>Mélisande</p>
-                </div>
-                <div class="">
                 </div>
             </div>
         </section>
